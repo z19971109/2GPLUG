@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">2G插座</string>
+
+    <!-- 定时任务 -->
+    <string name="date_task">时间任务</string>
+    <string name="date_task_set">定时设定</string>
+    <string name="time_task">定时</string>
+    <string name="period_task">周期</string>
+    <string name="open">打开</string>
+    <string name="repeat">重复</string>
+    <string name="run_one_time">执行一次</string>
+    <string name="edit_timer">编辑定时任务</string>
+    <string name="edit_period_task">编辑周期任务</string>
+    <string name="weeks">星期</string>
+    <string name="sun">日</string>
+    <string name="mon">一</string>
+    <string name="tue">二</string>
+    <string name="wed">三</string>
+    <string name="thu">四</string>
+    <string name="fri">五</string>
+    <string name="sat">六</string>
+    <string name="nerver">从不</string>
+
+
+    <string name="task">任务</string>
+
+    <!-- 定时列表 -->
+    <string name="rm2_timer_list">定时列表</string>
+    <string name="add_timer">添加定时</string>
+    <string name="setting">设置中...</string>
+    <string name="switch_on">开始时间</string>
+    <string name="switch_off">结束时间</string>
+    <string name="error_max_8_time_list">最多只能添加8组定时任务哦</string>
+    <string name="error_max_16_time_list">最多只能添加16组定时任务哦</string>
+    <string name="error_max_8_period_list">最多只能添加8组周期任务哦</string>
+    <string name="delete_task_hint">确认删除这组任务吗？</string>
+    <string name="enable">启用</string>
+    <string name="unable">未启用</string>
+
+
+    <!-- 共通 59a67b5a-->
+    <string name="warn_sdcard_miss">SD卡无法读取，请检查SD卡。</string>
+    <string name="double_click_exit">再按一次退出程序</string>
+    <string name="use_rom">使用ROM存储</string>
+    <string name="yes">确定</string>
+    <string name="cancel">取消</string>
+    <string name="exit">退出</string>
+    <string name="close">关闭</string>
+    <string name="update_title">开始下载更新</string>
+    <string name="update_content">下载更新中...%1$d%%</string>
+    <string name="err_on_network">网络无法连接，请检查网络是否链接正常。</string>
+    <string name="err_network">网络延迟，请检查网络或重试。</string>
+    <string name="err_system">系统错误</string>
+    <string name="error_get_skin">获取皮肤出错，请检查是否已下载皮肤</string>
+    <string name="err_network_ont_wifi">您的网络不是WIFI，请先链接WIFI</string>
+    <string name="getting_prepayid">正在获取预支付订单...</string>
+    <string name="app_tip">提示</string>
+
+
+    <!-- rm -->
+    <string name="cloud_ac">云空调</string>
+    <string name="naming_pattern">命名模式</string>
+    <string name="edit_mode_name_hint">命名模式名称</string>
+    <string name="select_ac_mode">选择模式类型</string>
+    <string name="select_ac_mode_tem">选择所学模式的温度值</string>
+    <string name="next">下一步</string>
+    <string name="last_step">上一步</string>
+    <string name="ac_guide_1_hint">调节空调至您想要的状态。</string>
+    <string name="ac_guide_2_hint">关闭空调。</string>
+    <string name="ac_guide_3_hint">学习成功，一键可开启学习到的空调状态。</string>
+    <string name="config_guide">配置引导</string>
+    <string name="select_time">选择时间</string>
+    <string name="control_remote">操作遥控器</string>
+    <string name="study_ac_hint">请按空调遥控器的开关按钮。</string>
+    <string name="skip_study_ir">跳过学习空调</string>
+    <string name="custom_ac">自定义空调</string>
+    <string name="select_buy_product">选择要购买的产品</string>
+    <string name="select_userbook">请选择你要查看说明书的产品</string>
+    <string name="custom">自定义</string>
+    <string name="edit_temp_info">编辑面板信息</string>
+    <string name="select_rm_to_time">选择一条控制命令，添加到定时。</string>
+    <string name="custom_info">自定义信息</string>
+    <string name="gallery">图库</string>
+    <string name="share_fail">分享失败</string>
+    <string name="select_tc1_type">请选择TC1类型</string>
+    <string name="all_on">全开</string>
+    <string name="all_off">全关</string>
+    <string name="login_out">退出登录</string>
+    <string name="login_out_hint">确认退出登录吗？</string>
+    <string name="device_buy">需要链接到设备，才能遥控操作。还未购买设备？现在就去购买！</string>
+
+    <!-- 开关控制页面 -->
+    <string name="format_switch_close">%1$s关</string>
+    <string name="format_switch_open">%1$s开</string>
+    <string name="format_close">剩余：%1$s关</string>
+    <string name="format_open">剩余：%1$s开</string>
+    <string name="err_time"> --:-- </string>
+    <string name="real_time_power">实时功率:</string>
+    <string name="format_today_time">00:00 - %1$s</string>
+    <string name="format_week">%1$s周</string>
+    <string name="alert_year">年</string>
+    <string name="alert_month">月</string>
+    <string name="alert_day">日</string>
+    <string name="alert_hour">时</string>
+    <string name="alert_min">分</string>
+    <string name="alert_second">秒</string>
+
+    <string name="every_day">每天</string>
+
+</resources>

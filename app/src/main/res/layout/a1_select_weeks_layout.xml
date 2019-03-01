@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/sp_mini_time_blue">
+
+        <Button
+            android:id="@+id/confirm_weeks_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="确定"
+            android:background="#00000000"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重复"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="20dp"
+        android:background="@color/eair_text_gray" />
+
+    <RelativeLayout
+        android:id="@+id/every_day_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/list_item_white_selector"
+        android:padding="5dp" >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/every_day"
+            android:textColor="@color/eair_text_black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/every_day_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/select" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/eair_text_gray" />
+
+    <ListView
+        android:id="@+id/week_lsit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:headerDividersEnabled="true"
+        android:layout_marginTop="20dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/eair_text_gray"
+        android:dividerHeight="1px"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+</LinearLayout>

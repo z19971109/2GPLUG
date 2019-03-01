@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="jk_day">
+        <item>请选择</item>
+        <item>7天</item>
+        <item>15天</item>
+        <item>30天</item>
+    </string-array>
+    <string-array name="jk_month">
+        <item>请选择</item>
+        <item>3个月</item>
+        <item>6个月</item>
+        <item>9个月</item>
+        <item>12个月</item>
+    </string-array>
+    <string-array name="scene_edit_array">
+        <item>插入</item>
+        <item>重设</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="group_button_edit_array">
+        <item>编辑名称</item>
+        <item>插入</item>
+        <item>重设</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="shortcut_long_array">
+        <item>删除</item>
+        <item>创建快捷键</item>
+        <!--<item>分享</item>-->
+    </string-array>
+    <string-array name="shortcut_long_array_daoqi">
+        <item>删除</item>
+        <!--<item>分享</item>-->
+    </string-array>
+    <string-array name="ir_array">
+        <item>空调</item>
+        <item>音响</item>
+        <item>机顶盒</item>
+        <item>电视</item>
+        <item>TC</item>
+        <item>自定义</item>
+        <!--<item>手势</item>-->
+        <item>窗帘</item>
+    </string-array>
+    <string-array name="ir_array_rmcc">
+        <item>空调</item>
+        <item>音响</item>
+        <item>机顶盒</item>
+        <item>电视</item>
+        <item>自定义</item>
+        <!--<item>手势</item>-->
+        <!--<item>窗帘</item>-->
+    </string-array>
+
+    <string-array name="zw_type">
+        <item>mac</item>
+        <item>备注</item>
+        <item>pppoe</item>
+    </string-array>
+
+    <string-array name="ir_array_en">
+        <item>Air Conditioner</item>
+        <item>Audio</item>
+        <item>Set Top Box</item>
+        <item>TV</item>
+        <item>TC</item>
+        <item>User-Defined</item>
+        <item>Gesture Control</item>
+        <item>窗帘</item>
+        <item>RCS</item>
+        <item>User-Defined Aircon</item>
+    </string-array>
+    <string-array name="ir_array_jp">
+        <item>オートエアコン</item>
+        <item>ステレオ</item>
+        <item>STB</item>
+        <item>TV</item>
+        <item>カスタマイズ</item>
+        <item>ジェスチャー</item>
+        <item>窗帘</item>
+        <item>RCS</item>
+    </string-array>
+    <string-array name="change_icon_array">
+        <item>图     库</item>
+        <item>拍     照</item>
+        <item>从手机相册选择</item>
+    </string-array>
+    <string-array name="chose_picture_array">
+        <item>拍     照</item>
+        <item>从手机相册选择</item>
+    </string-array>
+    <string-array name="sp_status">
+        <item>关闭</item>
+        <item>开启</item>
+    </string-array>
+    <string-array name="device_item_long_click">
+        <item>修改名称</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="stduy_code_array">
+        <item>新学习</item>
+        <item>选择已学习按钮</item>
+    </string-array>
+    <string-array name="m1_week_array">
+        <item>周日</item>
+        <item>周六</item>
+        <item>周五</item>
+        <item>周四</item>
+        <item>周三</item>
+        <item>周二</item>
+        <item>周一</item>
+    </string-array>
+    <string-array name="week_array">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="day_array">
+        <item>1日</item>
+        <item>2日</item>
+        <item>3日</item>
+        <item>4日</item>
+        <item>5日</item>
+        <item>6日</item>
+        <item>7日</item>
+        <item>8日</item>
+        <item>9日</item>
+        <item>10日</item>
+        <item>11日</item>
+        <item>12日</item>
+        <item>13日</item>
+        <item>14日</item>
+        <item>15日</item>
+        <item>16日</item>
+        <item>17日</item>
+        <item>18日</item>
+        <item>19日</item>
+        <item>20日</item>
+        <item>21日</item>
+        <item>22日</item>
+        <item>23日</item>
+        <item>24日</item>
+        <item>25日</item>
+        <item>26日</item>
+        <item>27日</item>
+        <item>28日</item>
+        <item>29日</item>
+        <item>30日</item>
+        <item>31日</item>
+    </string-array>
+    <string-array name="eair_sensor_array">
+        <item>温度</item>
+        <item>湿度</item>
+        <item>光照</item>
+        <item>空气质量</item>
+        <item>声音</item>
+    </string-array>
+    <string-array name="light_array">
+        <item>黑</item>
+        <item>昏暗</item>
+        <item>正常</item>
+        <item>亮</item>
+    </string-array>
+    <string-array name="air_array">
+        <item>优</item>
+        <item>良</item>
+        <item>正常</item>
+        <item>差</item>
+    </string-array>
+    <string-array name="voice_array">
+        <item>寂静</item>
+        <item>正常</item>
+        <item>吵闹</item>
+        <item>喧哗</item>
+    </string-array>
+    <string-array name="rf_type_array">
+        <item>315</item>
+        <item>433</item>
+    </string-array>
+    <string-array name="user_book_array">
+        <item>RM使用说明书</item>
+        <item>SP使用说明书</item>
+    </string-array>
+    <string-array name="ac_mode_array">
+        <item>制热</item>
+        <item>制冷</item>
+        <item>除湿</item>
+        <item>通风</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="timer_type_array">
+        <item>按年月日定时（时间点）</item>
+        <item>按时间段定时（周期）</item>
+    </string-array>
+    <string-array name="custom_icon_array">
+        <item>图     库</item>
+        <item>拍     照</item>
+        <item>从手机相册选择</item>
+        <item>不可见按钮</item>
+    </string-array>
+    <string-array name="tc1_array">
+        <item>TC1 1路</item>
+        <item>TC1 2路</item>
+        <item>TC1 3路</item>
+    </string-array>
+    <string-array name="air_more_array">
+        <item>风摆</item>
+        <item>负离子</item>
+        <item>加湿</item>
+        <item>杀菌</item>
+        <item>儿童锁</item>
+        <item>睡眠</item>
+    </string-array>
+    <string-array name="camera_light_array">
+        <item>光照变亮</item>
+        <item>光照变暗</item>
+    </string-array>
+    <string-array name="camera_pir_array">
+        <item>有人</item>
+        <item>无人</item>
+    </string-array>
+    <string-array name="camera_move_array">
+        <item>运动</item>
+        <item>不运动</item>
+    </string-array>
+    <string-array name="scene_m1_source_array">
+        <item>暂停</item>
+        <item>按键1</item>
+        <item>按键2</item>
+        <item>按键3</item>
+        <item>按键4</item>
+        <item>按键5</item>
+        <item>按键6</item>
+    </string-array>
+    <string-array name="scene_m1_source_v71_array">
+        <item>暂停</item>
+        <item>按键1</item>
+        <item>按键2</item>
+        <item>按键3</item>
+        <item>按键4</item>
+        <item>按键5</item>
+        <item>按键6</item>
+        <item>按键7</item>
+        <item>按键8</item>
+        <item>按键9</item>
+        <item>按键10</item>
+        <item>按键11</item>
+        <item>按键12</item>
+    </string-array>
+    <string-array name="m1_source_array">
+        <item>按键1</item>
+        <item>按键2</item>
+        <item>按键3</item>
+        <item>按键4</item>
+        <item>按键5</item>
+        <item>按键6</item>
+    </string-array>
+    <string-array name="m1_source_v71_array">
+        <item>按键1</item>
+        <item>按键2</item>
+        <item>按键3</item>
+        <item>按键4</item>
+        <item>按键5</item>
+        <item>按键6</item>
+        <item>按键7</item>
+        <item>按键8</item>
+        <item>按键9</item>
+        <item>按键10</item>
+        <item>按键11</item>
+        <item>按键12</item>
+    </string-array>
+    <string-array name="honyar_switch2_array">
+        <item>一路关</item>
+        <item>一路开</item>
+        <item>二路关</item>
+        <item>二路开</item>
+        <item>全关</item>
+        <item>全开</item>
+    </string-array>
+    <string-array name="top_box_array">
+        <item>小米盒子</item>
+        <item>Apple TV</item>
+        <item>DISH HD</item>
+        <item>魔百和</item>
+        <item>自定义机顶盒</item>
+    </string-array>
+    <string-array name="m1_bound_source_array">
+        <item>绑定</item>
+        <item>试听</item>
+    </string-array>
+    <string-array name="m1_unbound_source_array">
+        <item>取消绑定</item>
+        <item>试听</item>
+    </string-array>
+    <string-array name="s1_ir_array">
+        <item>有人</item>
+        <item>无人</item>
+    </string-array>
+    <string-array name="s1_door_array">
+        <item>开门</item>
+        <item>关门</item>
+    </string-array>
+    <string-array name="auto_manual">
+        <item>手动</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="sec_mode">
+        <item>不加密</item>
+        <item>WEP</item>
+        <item>WPA-PSK</item>
+        <item>WPA2-PSK</item>
+        <item>WPA/WPA2-PSK</item>
+    </string-array>
+    <string-array name="wepbit">
+        <item>64bit</item>
+        <item>128bit</item>
+    </string-array>
+    <string-array name="wepkeylen_40">
+        <item>5位</item>
+        <item>10位</item>
+    </string-array>
+    <string-array name="wepkeylen_104">
+        <item>13位</item>
+        <item>26位</item>
+    </string-array>
+    <string-array name="wan_mode">
+        <item>动态IP</item>
+        <item>静态IP</item>
+        <item>PPPOE拨号</item>
+    </string-array>
+    <string-array name="wifi_rate">
+        <item>节能</item>
+        <item>健康</item>
+        <item>普通</item>
+        <item>超强</item>
+        <item>穿墙</item>
+    </string-array>
+    <string-array name="camera_interval_time_array">
+        <item>1分钟</item>
+        <item>3分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>20分钟</item>
+        <item>40分钟</item>
+        <item>1小时</item>
+    </string-array>
+    <string-array name="custom_temp_array">
+        <item>顺序排序</item>
+        <item>自由排序</item>
+    </string-array>
+    <string-array name="plc_week_array">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="time_task_type_array">
+        <item>添加延时</item>
+        <item>添加定时</item>
+    </string-array>
+    <string-array name="time_task_type_2_array">
+        <item>添加延时</item>
+        <item>添加定时</item>
+        <item>添加循环</item>
+        <item>小夜灯定时</item>
+    </string-array>
+    <string-array name="time_task_type_neo_array">
+        <item>添加延时</item>
+        <item>添加定时</item>
+    </string-array>
+    <string-array name="voice_control_command_array">
+        <item>回家了</item>
+        <item>出门了</item>
+        <item>起床了</item>
+        <item>要睡觉了</item>
+        <item>家庭影院开启</item>
+        <item>家庭影院关闭</item>
+        <item>太热了</item>
+        <item>太冷了</item>
+        <item>开灯</item>
+        <item>关灯</item>
+        <item>开电视</item>
+        <item>关电视</item>
+    </string-array>
+    <string-array name="m1_net_radio_classify_array">
+        <item>国内电台</item>
+        <item>国际电台</item>
+        <item>音乐电台</item>
+        <item>新闻电台</item>
+        <item>经济电台</item>
+        <item>综合电台</item>
+        <item>体育电台</item>
+        <item>曲艺电台</item>
+        <item>交通电台</item>
+        <item>自定义电台</item>
+    </string-array>
+    <string-array name="honyar_ms1_array">
+        <item>USB</item>
+        <item>K1</item>
+        <item>K2</item>
+        <item>K3</item>
+        <item>全关</item>
+        <item>全开</item>
+    </string-array>
+    <string-array name="tc_type_array">
+        <item>TC1</item>
+        <item>TC2</item>
+    </string-array>
+    <string-array name="tc2_array">
+        <item>TC2 1路</item>
+        <item>TC2 2路</item>
+        <item>TC2 3路</item>
+    </string-array>
+    <string-array name="m1_sd_folder_array">
+        <item>查看</item>
+        <item>绑定</item>
+        <item>试听</item>
+    </string-array>
+
+    <!-- 鸿雁智能灯 -->
+    <string-array name="honyar_sl_array">
+        <item>主灯</item>
+        <item>小夜灯</item>
+        <item>色彩灯</item>
+    </string-array>
+    <string-array name="ipc_device_item_long_click">
+        <item>修改名称</item>
+        <item>删除</item>
+        <item>创建快捷键</item>
+        <item>退出登录</item>
+    </string-array>
+    <string-array name="ipc_device_item_long_click2">
+        <item>修改名称</item>
+        <item>删除</item>
+        <item>创建快捷键</item>
+    </string-array>
+    <string-array name="s1_place_array">
+        <item>客厅</item>
+        <item>主卧</item>
+        <item>次卧1</item>
+        <item>次卧2</item>
+        <item>厨房</item>
+        <item>卫生间</item>
+        <item>阳台</item>
+        <item>车库</item>
+        <item>未指定</item>
+    </string-array>
+    <string-array name="s1_use_array">
+        <item>门</item>
+        <item>窗</item>
+        <item>抽屉</item>
+    </string-array>
+    <string-array name="s1_config_protect_array">
+        <item>外出警示</item>
+        <item>在家警示</item>
+        <item>取消警示</item>
+    </string-array>
+
+    <!-- 图库图标，请不要随意修改名称和顺序 -->
+    <string-array name="gallery_icon_name_array">
+        <item>主页</item>
+        <item>下一页</item>
+        <item>上一页</item>
+        <item>收藏</item>
+        <item>静音</item>
+        <item>播放</item>
+        <item>返回</item>
+        <item>锁</item>
+        <item>删除</item>
+        <item>设置</item>
+        <item>定时</item>
+        <item>定位</item>
+        <item>电源</item>
+        <item>确认</item>
+        <item>加</item>
+        <item>减</item>
+        <item>切换</item>
+        <item>选台</item>
+        <item>暂停</item>
+        <item>菜单</item>
+        <item>音量加</item>
+        <item>音量减</item>
+        <item>频道减</item>
+        <item>频道加</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>游戏</item>
+        <item>3D</item>
+        <item>声道</item>
+        <item>屏显</item>
+        <item>宽高比</item>
+        <item>节目信息</item>
+        <item>照明</item>
+        <item>换气</item>
+        <item>健康</item>
+        <item>制冷</item>
+        <item>制热</item>
+        <item>睡眠</item>
+        <item>风速</item>
+        <item>模式</item>
+        <item>手动风向</item>
+        <item>净化</item>
+        <item>左右风向</item>
+        <item>上下风向</item>
+        <item>省电模式</item>
+        <item>强力</item>
+        <item>温度</item>
+        <item>除湿</item>
+        <item>蓝牙</item>
+        <item>赞</item>
+        <item>日历</item>
+        <item>负离子</item>
+        <item>天气</item>
+        <item>闪光</item>
+        <item>计算器</item>
+        <item>插座</item>
+        <item>搜索</item>
+        <item>循环</item>
+        <item>股票</item>
+        <item>汇率</item>
+        <item>广播</item>
+        <item>标签</item>
+        <item>邮件</item>
+        <item>共享</item>
+        <item>井号</item>
+        <item>音乐</item>
+        <item>分享</item>
+        <item>星号</item>
+        <item>视频</item>
+        <item>快退</item>
+        <item>快进</item>
+        <item>钻石</item>
+        <item>音效</item>
+        <item>停止</item>
+        <item>主题</item>
+        <item>应用</item>
+        <item>随机播放</item>
+        <item>单曲循环</item>
+    </string-array>
+    <string-array name="lightmates_mode_delay">
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>20分钟 </item>
+        <item>30分钟 </item>
+        <item>60分钟 </item>
+    </string-array>
+    <string-array name="lightmates_mode_pulse">
+        <item>模式1</item>
+        <item>模式2</item>
+        <item>模式3 </item>
+        <item>模式4 </item>
+        <item>模式5</item>
+    </string-array>
+    <string-array name="lightmates_mode_helpsleep">
+        <item>10分钟</item>
+        <item>20分钟 </item>
+        <item>30分钟 </item>
+        <item>40分钟 </item>
+    </string-array>
+    <string-array name="lightmates_mode_security_time">
+        <item>17点</item>
+        <item>18点</item>
+        <item>19点</item>
+        <item>20点</item>
+        <item>21点</item>
+        <item>22点</item>
+        <item>23点</item>
+        <item>24点</item>
+        <item>01点</item>
+        <item>02点</item>
+        <item>03点</item>
+        <item>04点</item>
+        <item>05点</item>
+    </string-array>
+    <string-array name="lightmates_mode_security_time_lenth">
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>3小时</item>
+        <item>4小时</item>
+    </string-array>
+    <string-array name="s1_sensor_state_change_delay_array">
+        <item>30秒</item>
+        <item>6分钟</item>
+    </string-array>
+    <string-array name="spmini_light_control_array">
+        <item> 插座开，小夜灯开</item>
+        <item> 插座开，小夜灯关</item>
+        <item> 插座关，小夜灯开</item>
+        <item> 插座关，小夜灯关</item>
+    </string-array>
+    <string-array name="bong_action_array">
+        <item>向上滑动</item>
+        <item>向下滑动</item>
+        <item>向左滑动</item>
+        <item>向右滑动</item>
+    </string-array>
+    <string-array name="deye_dehumiditifier_mode_array">
+        <item>手动除湿模式</item>
+        <item>干衣模式</item>
+        <item>空气净化模式</item>
+        <item>自动模式</item>
+        <item>鞋子干燥模式</item>
+    </string-array>
+    <string-array name="misfit_action_array">
+        <item>按一下</item>
+        <item>按二下</item>
+        <item>按三下</item>
+        <item>长按</item>
+    </string-array>
+
+</resources>

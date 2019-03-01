@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/register_title"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/register_back_bt"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_return_black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="注册"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5" />
+
+        <EditText
+            android:id="@+id/register_phone"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/register_edit"
+            android:hint="请输入手机号码"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:id="@+id/register_pass"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:textSize="16dp"
+            android:background="@drawable/register_edit"
+            android:hint="请输入密码(大于6位包含字符和数字)"
+            android:paddingLeft="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/register_code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/register_edit"
+                android:hint="请输入验证码"
+                android:textSize="16dp"
+                android:inputType="number"
+                android:paddingLeft="15dp" />
+
+            <Button
+                android:id="@+id/send_code_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/register_bt"
+                android:text="发送验证码"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+
+        <CheckBox
+            android:id="@+id/register_check"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:text="我已阅读并同意《2G插座服务条款》" />
+
+        <Button
+            android:id="@+id/next_bt"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/register_bt"
+            android:text="下一步"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="6" />
+    </LinearLayout>
+
+</LinearLayout>

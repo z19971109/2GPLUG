@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="eair_item_press">#7baaaaaa</color>
+
+    <color name="eair_text_black">#333333</color>
+    <color name="eair_text_gray">#8f8d8b</color>
+
+    <color name="eair_title_blue_normal">#007aff</color>
+    <color name="eair_title_blue_press">#007aff</color>
+
+    <color name="sp_mini_bar_text_blue">#2ea7de</color>
+
+    <color name="sp_mini_bar_text_gray">#6c828c</color>
+
+    <color name="sp_mini_time_blue">#2da8de</color>
+    <color name="sp_mini_time_gray">#4f5251</color>
+
+    <color name="sp_mini_time_week_text_color">#98a6aa</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="scan_corner_color">#0effc2</color>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffe6e6e6"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#2da8de">
+
+        <Button
+            android:id="@+id/device_back_bt"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_return_black"/>
+
+
+        <TextView
+            android:id="@+id/mac_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:text="2G插座"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.2"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/control_text"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="控制"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:paddingBottom="10dp"
+                android:textColor="#2ea7de"
+                android:drawableBottom="@drawable/mini_control_2"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/timer_text"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="定时"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:drawableBottom="@drawable/mini_delay_1"
+                android:textColor="#6c828c"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/device_view_page"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="8"></android.support.v4.view.ViewPager>
+    </LinearLayout>
+</LinearLayout>

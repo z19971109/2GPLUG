@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/item_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_transparent_selector"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/timer_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/timer_alerm" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/on_time_state_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/switch_on"
+                    android:textColor="@color/sp_mini_time_blue"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/on_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:text="08:12"
+                    android:textColor="@color/sp_mini_time_gray"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/sep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_toRightOf="@+id/on_time"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textColor="@color/sp_mini_time_gray"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/off_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/sep"
+                    android:gravity="center"
+                    android:text="09:12"
+                    android:textColor="@color/sp_mini_time_gray"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/weeks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:singleLine="true"
+                    android:text="周一,周二"
+                    android:textColor="@color/sp_mini_time_week_text_color"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:visibility="invisible"
+                    android:text="08:22:12"
+                    android:textColor="@color/sp_mini_time_gray"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/action_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/text"
+                    android:gravity="center"
+                    android:text="开"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/action_textView"
+                    android:gravity="center"
+                    android:text="09:12:22"
+                    android:visibility="invisible"
+                    android:textColor="@color/sp_mini_time_gray"
+                    android:textSize="14sp" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/time_enable_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:background="@drawable/switch_off" />
+
+        <ImageView
+            android:id="@+id/delete_button"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:focusable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/deye_long_running"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/line_long" />
+
+</LinearLayout>
